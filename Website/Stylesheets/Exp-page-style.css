@@ -1,0 +1,62 @@
+/* Formatting of body */
+body {
+	background-color: lightgreen;	
+	font-size: 0.6vw;
+	font-family: verdana;
+}
+/* Formatting of title */
+h1 {
+	color: green;
+	text-align: center;
+	font-size: 2vw;
+	padding: 1vw;
+	margin-top: 0vw;
+	margin: 0vw;
+	
+}
+
+/* Formatting of Navigation bar */
+li.Links {
+	list-style-type: none;	
+	float: left;
+	display: block;
+	padding: 1vw;
+	background-color: white;
+	border: 0.1vw solid black;
+	width: 15vw;
+}
+li.Links a {
+	text-decoration: none;
+	color: black
+}	
+/* Formatting of table */
+table {
+	position: fixed;
+	top: 10vw;
+    font-family: Comic Sans MS;
+    border-collapse: collapse;
+    width: 98vw;
+}
+
+td {
+    border: 0.3vw solid black;
+    text-align: left;
+    padding: 0.5vw;
+	background-color: white;
+}
+th {
+	background-color: lightblue;
+	border: 0.3vw solid black;
+    text-align: left;
+    padding: 0.5vw;
+}
+/* Formatting of footer*/
+#footer { 
+  position: absolute;
+  right: 0vw;
+  bottom: 0vw;
+  left: 0vw;
+  padding: 1vw;
+  text-align: center;
+  overflow: auto;
+}

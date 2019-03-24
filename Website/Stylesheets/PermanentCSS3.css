@@ -1,0 +1,150 @@
+/* Formatting for body of all pages */
+body {
+	background-color: #33C4FF;
+	margin: 0vw;
+	overflow: auto;
+	font-size: 0.8vw;
+	color: white;
+	font-family: georgia;
+}
+/* Formatting for title */
+h1.title {
+	color: black;
+	text-align: center;
+	color: pink;
+	background-color: #33C4FF;
+	font-size: 2vw;
+	padding: 1vw;
+	margin-top: 0vw;
+	margin: 0vw;
+}
+/* Formatting of Navigation bar */
+li.Links {
+	
+	list-style-type: none;	
+	background-color: pink;
+	width: 10vw;
+	padding: 0.8vw;
+	margin-left: 0.5vw;
+	border: 0.1vw solid blue;
+	border-radius: 3vw;
+	text-align: center;
+}	
+li.Links a {
+	text-decoration: none;
+	color: black;
+	overflow: auto;
+}
+li.Links:hover {
+	background-color: green;
+}	
+/* Formatting for main content */
+#content {
+	background-color: lightgrey;
+	position: fixed;
+	top: 5vw;
+	right: 8vw;
+	margin-left: 10vw;
+	width: 70vw;
+	height: 38vw;
+	border: 0.1vw solid black;
+	border-radius: 0.8vw;
+	
+}
+
+#MT {
+	position: fixed;
+	left: 23vw;
+	top: 20vw;
+}
+#MT img {
+	position: fixed;
+	height: 18vw;
+	width: 18vw;
+}
+h2 {
+	position: fixed;
+	top: 5vw;
+	left: 42.1vw;
+	border: 0.2vw solid pink;
+	border-radius: 0.4vw;
+	padding: 0.4vw;
+}
+p.facts {
+	position: fixed;
+	top: 9vw;
+	left: 24vw;
+	width: 14vw;
+	border: 0.2vw solid pink;
+	border-radius: 0.4vw;
+	padding: 1vw;
+}
+
+.Info1 {
+	position: fixed;
+	right: 28vw;
+	top: 5vw;
+	width: 30vw;
+	height: 10vw;
+	padding: 1vw;
+	overflow: auto;
+}
+.Info {
+	position: fixed;
+	top: 10vw;
+	left: 42.2vw;
+	width: 40vw;
+	height: 20vw;
+	
+}
+/* Formatting of pictures on welcome page */
+#pictures {
+	position: fixed;
+	top: 14vw;
+	right: 30vw;
+	overflow: auto;
+}
+#pictures img{
+	border: 3vw;
+	overflow: auto;
+	height: 10vw;
+	width: 10vw;
+}
+/* Formatting of form elements */
+form {
+	width: 30vw;
+	height: 15.8vw;
+	position: fixed;
+	text-align: center;
+	top: 25vw;
+	left: 39.5vw;
+	background-color: lightblue;
+	border: 0.2vw solid red;
+	border-radius: 1vw;
+	overflow: auto;
+}
+input[type=text]{
+	width: 20vw;
+	border: 0.1vw solid red;
+}
+input[type=submit], input[type=reset] {
+	width: 10vw;
+	font-size: 1vw;
+	background-color: pink;
+	border: 0.1vw pink;
+	border-radius: 0.3vw;
+}
+
+
+/* Formatting of footer*/
+#footer { 
+  position: absolute;
+  color: pink;
+  right: 0vw;
+  bottom: 0vw;
+  left: 0vw;
+  padding: 1vw;
+  text-align: center;
+  background-color: #33C4FF;
+  overflow: auto;
+}
