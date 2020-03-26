@@ -4,7 +4,6 @@ body {
 	margin: 0vw;
 	overflow: auto;
 	font-size: 0.8vw;
-	color: white;
 	font-family: georgia;
 }
 /* Formatting for title */
@@ -20,8 +19,8 @@ h1.title {
 }
 /* Formatting of Navigation bar */
 li.Links {
-	
-	list-style-type: none;	
+
+	list-style-type: none;
 	background-color: pink;
 	width: 10vw;
 	padding: 0.8vw;
@@ -29,7 +28,7 @@ li.Links {
 	border: 0.1vw solid blue;
 	border-radius: 3vw;
 	text-align: center;
-}	
+}
 li.Links a {
 	text-decoration: none;
 	color: black;
@@ -37,7 +36,7 @@ li.Links a {
 }
 li.Links:hover {
 	background-color: green;
-}	
+}
 /* Formatting for main content */
 #content {
 	background-color: lightgrey;
@@ -49,7 +48,7 @@ li.Links:hover {
 	height: 38vw;
 	border: 0.1vw solid black;
 	border-radius: 0.8vw;
-	
+
 }
 
 #MT {
@@ -95,7 +94,7 @@ p.facts {
 	left: 42.2vw;
 	width: 40vw;
 	height: 20vw;
-	
+
 }
 /* Formatting of pictures on welcome page */
 #pictures {
@@ -137,7 +136,7 @@ input[type=submit], input[type=reset] {
 
 
 /* Formatting of footer*/
-#footer { 
+#footer {
   position: absolute;
   color: pink;
   right: 0vw;
